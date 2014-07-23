@@ -282,17 +282,36 @@ a:focus {
 }
 
 /*
+Slide 1
+*/
+#slide1 {
+    padding: 0;
+    margin:0;
+}
+
+
+h1 {
+    font-size: 120px;
+
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+/*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
 
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
 #big {
-    width: 600px;
-    text-align: center;
-    font-size: 60px;
-    line-height: 1;
-}
+     width: 600px;
+     text-align: center;
+     font-size: 60px;
+     line-height: 1;
+ }
 
 #big b {
     display: block;
@@ -304,6 +323,8 @@ a:focus {
     font-size: 90px;
     line-height: 150px;
 }
+
+
 
 /*
     'Tiny ideas' just need some tiny styling.
